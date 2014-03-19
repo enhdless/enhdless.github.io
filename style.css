@@ -11,6 +11,21 @@ body {
 .container {
 	margin: 0 auto;
 	max-width: 800px;
+	-webkit-animation-name: slide-in;
+	-webkit-animation-duration: 1.5s;
+}
+
+/* animation */
+
+@-webkit-keyframes slide-in {
+	from {
+		opacity: 0;
+		margin-top: -200px;
+	}
+	to {
+		opacity: 1;
+		margin-top: 0;
+	}
 }
 
 /* headers */
